@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets: API keys, server IP
+.env
+
+# Real honeypot logs (contain real IPs)
+data/raw/
+*.json
+*.json.*
+!data/sample/*.json
+
+# GeoIP database (license does not allow redistribution)
+*.mmdb
+
+# Enrichment cache
+data/cache/
